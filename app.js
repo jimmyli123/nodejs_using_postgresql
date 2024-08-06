@@ -12,5 +12,5 @@ app.use("/", dbRouter);
 
 
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 1234;
 app.listen(PORT, ()=> console.log(`Server is running on ${PORT}.`))
