@@ -3,9 +3,9 @@ const dbController = require("../controllers/dbController");
 const dbRouter = Router();
 
 
-dbRouter.get("/", dbController.createUsernameGet);
+dbRouter.get("/", dbController.getUsernames);
 
-dbRouter.get("/new", dbController.getUsernames);
+dbRouter.get("/new", dbController.createUsernameGet);
 
 dbRouter.post("/new", dbController.createUsernamePost);
 
