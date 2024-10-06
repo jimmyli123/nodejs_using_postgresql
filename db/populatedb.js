@@ -8,13 +8,17 @@ CREATE TABLE IF NOT EXISTS usernames (
   username VARCHAR ( 255 )
 );
 
-
-
 INSERT INTO usernames (username) 
 VALUES
   ('Bryan'),
   ('Odin'),
   ('Damon');
+`;
+
+const messagesSQL = `
+CREATE TABLE IF NOT EXISTS messages (
+  
+)
 `;
 
 async function main() {
